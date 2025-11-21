@@ -1,0 +1,58 @@
+.user-card {
+  padding: 20px;
+  border-radius: 16px;
+  border: none;
+  background: white;
+  transition: 0.25s ease;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.user-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+/* MODERN HIGHLIGHT */
+.user-card.highlight {
+  border: 2px solid #4caf50;
+  background: #f0fff3;
+}
+
+/* Badge */
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Description Button */
+.desc-btn {
+  margin-top: 12px;
+  background: #1976d2;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.desc-btn:hover {
+  background: #0d47a1;
+}
+
+/* Description box */
+.description {
+  margin-top: 12px;
+  background: #f8f8f8;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+}
